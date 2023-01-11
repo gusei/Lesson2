@@ -19,5 +19,7 @@ frm_buttons.pack(fill=tk.X,ipadx=5,ipady=5)
 
 btn_sabmit=tk.Button(master=frm_buttons,text='Submit')
 btn_sabmit.pack(side=tk.RIGHT,padx=10,ipadx=10)
+bth_clear=tk.Button(master=frm_buttons,text="Clear")
+bth_clear.pack(side=tk.RIGHT,ipadx=10)
 
 win.mainloop()
