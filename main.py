@@ -14,4 +14,7 @@ for idx,text in enumerate(labels):
     label.grid(row=idx,column=0,sticky='e')
     entry.grid(row=idx,column=1)
 
+frm_buttons=tk.Frame()
+frm_buttons.pack(fill=tk.X,ipadx=5,ipady=5)
+
 win.mainloop()
